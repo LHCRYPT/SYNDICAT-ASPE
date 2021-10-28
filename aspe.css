@@ -1,7 +1,7 @@
 
 body
 {
-	background: url("images/aspepetit.jpg") scroll repeat-x;
+	background: url("images/aspepetit.jpg") scroll repeat-x; /* le texte défile et l'image remonte aussi*/
  	background-color: white;
 }
 
@@ -29,7 +29,7 @@ margin-top: 150px;
 
 p:hover
 {
-	border-left: 3px solid #000000;
+	border-left: 3px solid blue;
 }
 
 .flottant
@@ -46,6 +46,11 @@ strong
 .Copyright
 {
 	color: blue; font-size: 0.7rem;
+}
+
+a
+{
+	color: blue;
 }
 
 a:hover
@@ -89,8 +94,7 @@ td, th
 /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
 @media all and (min-width: 1024px) and (max-width: 1280px)
 
-/* Sur les téléviseurs */
-@media tv
+
 
 /* Sur tous types d'écrans orientés verticalement */
 @media all and (orientation: portrait)
