@@ -29,7 +29,7 @@ margin-top: 150px;
 
 p:hover
 {
-	border-left: 3px solid blue;
+	border-left: 3px solid #000000;
 }
 
 .flottant
