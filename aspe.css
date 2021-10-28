@@ -1,0 +1,96 @@
+
+body
+{
+	background: url("images/aspepetit.jpg") fixed repeat-x;
+ 	background-color: white;
+}
+
+.PRESENTATION
+{
+	color: #000000; font-size: 2rem;
+	background-color: #1560BD;  
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: left;
+}
+
+p
+{
+font-size: 1rem; font-family: Arial, "Times New Roman", Verdana, sans-serif, Impact, "Arial Black"; 
+margin: 30px;
+}
+
+.secretaire
+{
+font-size: 1rem; font-family: Arial, "Times New Roman", Verdana, sans-serif, Impact, "Arial Black"; 
+margin-top: 150px;
+
+}
+
+p:hover
+{
+	border-left: 3px solid blue;
+}
+
+.flottant
+{
+	float : center;
+}
+
+
+strong
+{
+	background-color: #ffffff; font-weight: bold; font-size:1.1em; 
+}
+
+.Copyright
+{
+	color: blue; font-size: 0.7rem;
+}
+
+a:hover
+{
+color: white;
+}
+
+caption
+{
+	margin-top: 40px;
+}
+
+table
+{
+	border-collapse: collapse;
+	margin-bottom: 40px;
+}
+
+td, th
+{
+	border: 1px solid black;
+}
+
+
+
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1024px */
+@media screen and (max-width: 1024px)
+{
+    #banniere_image
+    {
+        display: none;
+    }
+}
+@media all and (max-device-width: 480px)
+{/* Vos règles CSS pour les mobiles ici */
+   #banniere_image
+    {
+        display: none;
+    } 
+}
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+@media all and (min-width: 1024px) and (max-width: 1280px)
+
+/* Sur les téléviseurs */
+@media tv
+
+/* Sur tous types d'écrans orientés verticalement */
+@media all and (orientation: portrait)
