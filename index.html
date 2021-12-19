@@ -1,114 +1,173 @@
 <!DOCTYPE html>
 <html lang="fr">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" /> <!--c'est pour l'affichage mobile-->
-		<link rel="stylesheet" href="aspe.css" />
-		<title>SYNDICAT ASPE</title>
-	</head>
-
-	<body>
-		
-		<header>
-			
-
-<!-- <h1><img src="images/aspe.jpeg" alt="syndicat aspe" /> </h1>
-		
-			
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <!--c'est pour l'affichage mobile-->
+        <script src="https://kit.fontawesome.com/45e38e596f.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="aspe.css" />
+        <title>ohmyfood</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
 
 
-<p><img src="images/aspepetit.jpg" alt="syndicat aspe" /></p> -->
+    </head>
+    <body>
+<div class="rond">
+<div class="loader"></div></div>
+        <!--logo+entête-->
+        <div class="page">
+        <header class="header-mobile">
+            <div class="logo" >
+                <img src="images/logo/ohmyfood.png" width="180" alt="logo ohmyfood" />
+            </div>
+        </header>
+        <div class="recherche">
+            <form method="post" action="traitement.php">
+                <i class="fas fa-map-marker-alt"></i>
+                <input type="text" name="pseudo" id="par" placeholder="Paris, France">
+            </form>
+        </div>
+        <!-- Section 1 -->
+        <section class="reservez">
+            <h1>Prenez le syndicat qui <br class="hide-desktop" />vous convient</h1>
+            <h3>Découvrez des articles d'exception,<br class="hide-desktop"/> selectionnés par nos soins</h3>
+            <!--mettre ou pas-->
+            <div class="com-bts">
+                <form method="post" action="traitement.php">
+                    <input class="searchbuttons" type="button" value="Explorer nos articles">
+                </form>
+            </div>
+        </section>
+        <!-- Section 2 -->
+        <section class="fonct">
+            <div>
+                <h1 class="titre">Fonctionnement</h1>
+                <div class="fi">
+                    <div class="number">
+                        1
+                    </div>
+                    <div class="contour">
+                        <i id="res" class="fas fa-mobile-alt"></i>
+                        <span class="restaurant">PRESENTATION</span>
+                    </div>
+                    <div class="number">
+                        2
+                    </div>
+                    <div class="contour">
+                        <i id="men" class="fas fa-list-ul"></i>
+                        <span class="menu">CCN-PRIVE</span>
+                    </div>
+                    <div class="number">
+                        3
+                    </div>
+                    <div class="contour">
+                        <i id="deg" class="fas fa-store"></i>
+                        <span class="degust">STATUT PUBLIC</span>
+                    </div>
+                </div>
+                <!--span: balise de type inline, on la place pour sélectionner certains mots uniquement -->
+            </div>
+        </section>
+        
+        <!--section 3 -->
+
+        <section class="central" >
+            <div class="center">
+                <h1 class="activites">A LA UNE</h1>
+                <div class="conteneur1">
+                    <div class="element1">
+                        <a href="food4.html" class="pal"><img class="phot" src="images/restaurants/jay.jpg" alt="un plat" /></a>
+                        <div>
+                            <div class="nouveau">
+                                Nouveau
+                            </div>
+                            <div class= "lieu">
+                                <div>
+                                    TELETRAVAIL 2022
+                                    <p class="ville">
+                                        POLE EMPLOI
+                                    </p>
+                                </div>
+                                <div class="coeur-effet">
+                                    <i class="fas fa-heart"></i>                             
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="element1">
+                        <a href="food3.html" class="pal"><img class="phot" src="images/restaurants/stil.jpg" alt="un plat" /></a>
+                        <div>
+                            <div class="nouveau">
+                                Nouveau
+                            </div>
+                            <div class= "lieu">
+                                <div>
+                                    NOUVELLE MUTUELLE 2022
+                                    <p class="ville">
+                                        POLE EMPLOI
+                                    </p>
+                                </div>
+                                <div class="coeur-effet">
+                                    <i class="fas fa-heart"></i>                             
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
 
-<p class="secretaire"> Secrétaire générale : <strong>Ahlem HAKIMI</strong></p>
-</header>
-<h1 class="PRESENTATION">PRESENTATION</h1><br />
-
-
-<p>	
-ASPE est un syndicat créé par des salariés (ées) pour les salariés (ées) de Pôle Emploi. ASPE est un syndicat apolitique, ce qui nous permet de garder notre liberté d’engagements et d’actions.<br /> 
-Notre parcours syndical et notre connaissance du terrain nous permettent de vous informer, de vous aider, de vous défendre et donc de faire respecter vos droits.<br />
-Notre syndicat est la réponse à notre volonté d’une plus grande justice sociale, d’une meilleure reconnaissance de NOS DROITS et de NOTRE TRAVAIL.<br /> 
-Nous sommes, toutes et tous, les acteurs sociaux et économiques de Pôle emploi. Notre détermination est de remettre les salariés (ées) au PREMIER plan.</p><br /> 
-
-
-<h1 class="PRESENTATION">MEMBRES DU BUREAU NATIONAL</h1><br />
-
-<table>
-	<caption>Membres du Bureau National</caption>
-	<tr>
-		<th class="nom">NOM</th>
-		<th>PRENOM</th>
-		<th>POSTE</th>
-	</tr>
-	<tr>
-		<td>HAKIMI</td>
-		<td>AHLEM</td>
-		<td>SECRETAIRE GENERALE</td>
-	</tr>
-	<tr>
-	 	<td>RATOUCHNIAK</td>
-		<td>MARIE-PIERRE</td>
-		<td>SECRETAIRE GENERALE ADJOINTE</td>
-	</tr>
-	<tr>
-		<td>HAMADOUCHE</td>
-		<td>LYNDA</td>
-		<td>SECRETAIRE GENERALE ADJOINTE</td>
-	</tr>
-	<tr>
-		<td>DJAMIL</td>
-		<td>OUAFYA</td>
-		<td>TRESORIERE</td>
-	</tr>
-	<tr>
-		<td>SAYAH</td>
-		<td>FATNA</td>
-		<td>TRESORIERE ADJOINTE</td>
-	</tr>
-
-</table>
-
-
-
-<aside>
-<br />
-
-<h1 class="PRESENTATION">BULLETIN D'ADHESION</h1><br />
-
-<p>INFORMEZ-VOUS    DEFENDEZ-VOUS<br />
-<br />FAITES RESPECTER VOS DROITS EN ADHERANT A ASPE<br />
-<br />
-Rejoignez-nous ! <br />
-</p>
-
-<p> <a href="adhesion.docx"> Vous pouvez télécharger votre bulletin d'adhésion</a></p><br />
-
-<h2 class="PRESENTATION">CONTACT</h2><br />
-
-<p>Vous pouvez contacter notre syndicat : <a href="mailto:aspe.tresorerie@gmail.com">aspe.tresorerie@gmail.com</a> </p><br />
-
-</aside>
-
-<h1 class="PRESENTATION">VIDEO/AUDIO</h1><br />
-
-<audio src="01-Farid Al Atrach-Addi Errabi.mp3" controls></audio>
-<br />
-
-<video controls poster="images/aspepetit.jpg" width="600"> 
-   <source src="mettre lien video"> 
-   <source src="Vid_o009A.webmhd.webm"> <!--je n'ai pas de vidéo à mettre pour le moment, c'est un faux lien car j'ai supprimé l'ancienne vidéo dans documents syndicataspe-->
- </video>
-<br />
-
-<p>
-<a href="index.html">Haut de la page</a>
-</p>
-<br />
-
-<footer>
-	<p class="Copyright"> Copyright ASPE - Tous droits réservés.</p><br />
-		</footer>
-
-		</body>
+                    <div class="element1">
+                        <a href="food2.html" class="pal"><img class="phot" src="images/restaurants/toa.jpg" alt="un plat" /></a>
+                        <div>
+                            <div class= "lieu">
+                                <div>
+                                    <a href="com549accorddu22novembre2017relatifalaclassificationdesemplois24070.pdf" class="classifprivee">CLASSIFICATION PRIVEE</a>
+                                    <p class="ville">
+                                        POLE EMPLOI
+                                    </p>
+                                </div>
+                                <div class="coeur-effet">
+                                    <i class="fas fa-heart"></i>                             
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="element1">
+                        <a href="food5.html" class="pal"><img class="phot" src="images/restaurants/louis.jpg" alt="un plat" /></a>
+                        <div class= "lieu">
+                            <div>
+                                ACCIDENT DE TRAVAIL
+                                <p class="ville">
+                                    POLE EMPLOI
+                                </p>
+                            </div>
+                            <div class="coeur-effet">
+                                    <i class="fas fa-heart"></i>                             
+                                    <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="foot">
+                <div class="propos">
+                    <div class="petitlogo" >
+                         ASPE  Agissons Syndicat Pôle Emploi
+                    </div>
+                    <h4><i class="fas fa-utensils"></i>Proposer un article</h4>
+                    <h4><i class="fas fa-hands-helping"></i><a href="BULLETIN_D-ADHESION_ASPE finalise 141221.docx" class="adhesion">Devenir adhérents, bulletin d'adhésion</a></h4>
+                    <h4>Mentions légales</h4>
+                    <a href="mailto:aspe.syndicatnational@gmail.com" class="contact">Contact</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    </body>
 </html>
