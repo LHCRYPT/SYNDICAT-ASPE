@@ -2266,12 +2266,12 @@ body .page
 	
 	.nouveau
 	{
-		color: #22780F;
+		color: blue;
 		/* Vert de vessie*/
 		font-weight: bold;
 		font-size: 1rem;
 		border-radius: 2px;
-		background-color: #99E2D0;
+		background-color: red;
 		/*Vert d'eau*/
 		padding: 10px;
 		/* concerne les marges intérieures */
@@ -2308,7 +2308,7 @@ body .page
 	.coeur-effet .fas /*coeur plein*/
 	{
   		color: transparent;
-  		background: linear-gradient(#ff79da, #9356dc);
+  		background: linear-gradient(white,red);
   		-webkit-background-clip: text; /*permets que la couleur violette remplisse juste le coeur sinon c'est un rectangle violet qui apparait*/
   		opacity: 0;
   		font-size: 1.5rem;
