@@ -396,7 +396,7 @@ body .page
 	.coeur-effet .fas 
 	{
   		color: transparent;
-  		background: linear-gradient(#ff79da, #9356dc);
+  		background: linear-gradient(#ff79da, #5680dc);
   		-webkit-background-clip: text; /*pour que la couleur remplisse juste le coeur*/
   		opacity: 0; /*pour qu'il n'apparait pas*/
   		font-size: 1.5rem;
