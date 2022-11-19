@@ -65,7 +65,7 @@
 	et que ce contenu n'a pas été saisi par l'utilisateur ou par le site même*/
 	
 	{
-		color: #000000;
+		color: blue;
 		/*couleur noire*/
 	}
 
@@ -73,12 +73,20 @@
 	h1
 	{
 		margin-left: 20px;
+		font-size: 1rem
+		/* concerne les marges exterieures */
+	}
+
+	h2 /*  prenez le syndicat qui vous convient*/
+	{
+		margin-left: 20px;
+		font-size: 1.4rem
 		/* concerne les marges exterieures */
 	}
 
 	h3
 	{
-		color: grey;
+		color: blue;
 	}
 
 	.reservez
@@ -101,7 +109,7 @@
 	.searchbuttons
 	{
 		font-size: 1rem;
-		color: white;
+		color: blue;
 		border: solid 2px none;/* pas de couleur pour le contour*/
 		border-radius: 25px;
 		height: 3rem;
@@ -110,7 +118,7 @@
 		/* concerne les marges interieures */
 		padding-right: 15px;
 		margin-bottom: 40px;
-		background:linear-gradient(#ff79da, #9356dc);
+		background:linear-gradient(#00caff, #790915);
 		/*dégradé linéaire couleur Héliotrope-Bleu persan */
 		font-weight: bold;
 		box-shadow: 0px 3px #aaa;
@@ -121,8 +129,8 @@
 	.searchbuttons:hover  /*une couleur se met dès qu'on survol le mot à l'interieur de l'encadrement, un encadrement de couleur grise apparait */
 	
 	{
-		color: white;
-		background-color: #F2F2F2;
+		color: red;
+		background-color: white;
 		box-shadow: 7px 6px 27px 0px rgba(0,0,0,0.75);
 		cursor: pointer;
 		/*définit la forme du curseur lorsque le pointeur est au-dessus de l'élément, Le curseur est un pointeurqui indique un lien,généralement c'est une main.*/
