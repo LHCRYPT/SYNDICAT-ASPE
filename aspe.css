@@ -38,13 +38,13 @@
 		/* Gris Perle*/
 		width: 110%;
 		border-top: solid 4px #9E9E9E;
-		/*trait foncé au dessus de Paris Belleville*/
+		/*trait foncé au dessus de Paris */
 	}
 
-	.fas.fa-map-marker-alt /*icone recherche*/
+	/*.fas.fa-map-marker-alt icone recherche
 	{
 		border: none;
-		padding: 15px;
+		padding: 15px;*/
 		/* pour grossir le rond*/
 	}
 
