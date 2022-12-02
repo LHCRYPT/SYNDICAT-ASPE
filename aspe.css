@@ -78,7 +78,7 @@
 		/* concerne les marges exterieures */
 	}
 
-	h2 /*  prenez le syndicat qui vous convient*/
+	h3 /*  prenez le syndicat qui vous convient*/
 	{
 		margin-left: 20px;
 		font-size: 1.4rem
@@ -140,12 +140,12 @@
 
 	/* Section 2*/
 
-	.titre /*mot fonctionnement*/
+	/*.titre mot fonctionnement
 	
 	{
 		margin-left: 15px;
 		padding-bottom: 10px;
-	}
+	} */
 
 	.fonct /*bloc : fonctionnement restaurant menu dégustez*/
 	
