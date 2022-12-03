@@ -20,6 +20,7 @@
 		margin-top: 20px;
 		/* concerne les marges exterieures  */
 		margin-bottom: 10px;
+		
 	}
 
 	.logo
@@ -480,7 +481,7 @@ body .page
 		color: white;
 	}
 
-	/*2ème page PORTABLE*/
+	/*2ème page TELEPHONE PORTABLE*/
 
 	/*header*/
 
@@ -913,13 +914,65 @@ body .page
 	/*section footer*/
 	
 
-	.fot /* concerne l'alignement footer */
+	/*.fot concerne l'alignement footer 
 	
 	{
 		display: flex;
 		margin-left: 55px;
+	}*/
+	
+	footer
+	{
+		background-color: #303030;
+		flex-direction: column;
+		width: 110%;
+		padding-bottom: 15px;
 	}
 
+	.foot /* concerne l'alignement footer */
+	
+	{
+		display: flex;
+		margin-left: 20px;
+	}
+
+	.petitlogo
+	{
+		color: white;
+		padding-top: 25px;
+		padding-bottom: 5px;	/* concerne  marge interieure bas  */
+		margin-bottom: 10px;
+		font-family: 'Shrikhand', cursive;
+		font-size: 1.3rem;
+	}
+
+	h4
+	{
+		color: white;
+	}
+
+	h4:hover  /*une couleur se met dès qu'on survol le mot à l'interieur de l'encadrement, un encadrement de couleur grise apparait */
+	
+	{
+		color: #0065FC;
+		background-color: #F2F2F2;
+		cursor: pointer;	/*définit la forme du curseur lorsque le pointeur est au-dessus de l'élément, Le curseur est un pointeurqui indique un lien,généralement c'est une main.*/
+	}
+
+	.fas.fa-utensils
+	{
+		margin-right: 10px;
+	}
+
+	.fas.fa-hands-helping
+	{
+		margin-right: 10px;
+	}
+
+	.contact
+	{
+		color: white;
+	}
 	
 }
 
